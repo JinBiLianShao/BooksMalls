@@ -1,2 +1,2 @@
 # PictureMall
-基于thinkphp开发的图片商城
+基于thinkphp开发的图书商城
