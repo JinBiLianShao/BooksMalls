@@ -1,0 +1,78 @@
+[ 2020-04-16T17:56:40+08:00 ] 127.0.0.1 /ttt11/Public/Admin/css/images/houtai3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001358s ]
+ERR: 无法加载模块:Public
+
+[ 2020-04-16T17:56:42+08:00 ] 127.0.0.1 /ttt11/index.php/book/BookAddShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+ERR: 无法加载模块:Book
+
+[ 2020-04-16T17:56:49+08:00 ] 127.0.0.1 /ttt11/index.php/book/BookShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001424s ]
+ERR: 无法加载模块:Book
+
+[ 2020-04-16T17:56:52+08:00 ] 127.0.0.1 /ttt11/index.php/book/BookAddShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001921s ]
+ERR: 无法加载模块:Book
+
+[ 2020-04-16T17:56:55+08:00 ] 127.0.0.1 /ttt11/index.php/book/BookShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006009s ]
+ERR: 无法加载模块:Book
+
+[ 2020-04-16T17:56:58+08:00 ] 127.0.0.1 /ttt11/index.php/type/typeshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+ERR: 无法加载模块:Type
+
+[ 2020-04-16T17:57:49+08:00 ] 127.0.0.1 /ttt11/index.php/gonggao/gonggaoshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+ERR: 无法加载模块:Gonggao
+
+[ 2020-04-16T17:57:53+08:00 ] 127.0.0.1 /ttt11/index.php/gonggao/GonggaoAddShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+ERR: 无法加载模块:Gonggao
+
+[ 2020-04-16T17:57:55+08:00 ] 127.0.0.1 /ttt11/index.php/user/usershow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002107s ]
+ERR: 无法加载模块:User
+
+[ 2020-04-16T17:57:59+08:00 ] 127.0.0.1 /ttt11/index.php/type/typeaddshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+ERR: 无法加载模块:Type
+
+[ 2020-04-16T18:04:16+08:00 ] 127.0.0.1 /ttt11/index.php/book/BookAddShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+ERR: 无法加载模块:Book
+
+[ 2020-04-16T18:04:38+08:00 ] 127.0.0.1 /ttt11/index.php/book/BookAddShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+ERR: 无法加载模块:Book
+
+[ 2020-04-16T18:12:58+08:00 ] 127.0.0.1 /ttt11/Public/Admin/css/images/houtai3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+ERR: 无法加载模块:Public
+

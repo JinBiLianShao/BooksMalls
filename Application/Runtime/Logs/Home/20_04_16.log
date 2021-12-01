@@ -1,0 +1,1808 @@
+[ 2020-04-16T17:48:28+08:00 ] 127.0.0.1 /ttt11/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013967s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0432s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0435s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0092s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011215s ]
+
+[ 2020-04-16T17:48:33+08:00 ] 127.0.0.1 /ttt11/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006655s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007394s ]
+
+[ 2020-04-16T17:48:38+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007857s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( recommend=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009271s ]
+
+[ 2020-04-16T17:48:42+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006582s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0273s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( newbook=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_book` WHERE ( newbook=1 ) LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009448s ]
+
+[ 2020-04-16T17:48:55+08:00 ] 127.0.0.1 /ttt11/index.php/Home/regsiter/regsitershow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006637s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011289s ]
+
+[ 2020-04-16T17:48:56+08:00 ] 127.0.0.1 /ttt11/index.php/Home/regsiter/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006492s ]
+
+[ 2020-04-16T17:48:57+08:00 ] 127.0.0.1 /ttt11/home/yuding.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006871s ]
+ERR: 非法操作:index
+
+[ 2020-04-16T17:49:01+08:00 ] 127.0.0.1 /ttt11/home/yuding.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009820s ]
+ERR: 非法操作:index
+
+[ 2020-04-16T17:49:07+08:00 ] 127.0.0.1 /ttt11/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007018s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006373s ]
+
+[ 2020-04-16T17:49:09+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007587s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( recommend=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,4   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006274s ]
+
+[ 2020-04-16T17:49:10+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007997s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( newbook=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_book` WHERE ( newbook=1 ) LIMIT 0,4   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008714s ]
+
+[ 2020-04-16T17:49:12+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006660s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0192s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=1 ) LIMIT 0,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006392s ]
+
+[ 2020-04-16T17:49:13+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006900s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=2 ) LIMIT 0,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006143s ]
+
+[ 2020-04-16T17:49:14+08:00 ] 127.0.0.1 /ttt11/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006555s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0719s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008977s ]
+
+[ 2020-04-16T17:49:16+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007523s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( recommend=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008506s ]
+
+[ 2020-04-16T17:49:18+08:00 ] 127.0.0.1 /ttt11/index.php/Home/xiangxi/xiangxi/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007162s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `tb_book` WHERE ( bookid=6 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007392s ]
+
+[ 2020-04-16T17:49:19+08:00 ] 127.0.0.1 /ttt11/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007426s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006322s ]
+
+[ 2020-04-16T17:49:21+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006849s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( newbook=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_book` WHERE ( newbook=1 ) LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006533s ]
+
+[ 2020-04-16T17:49:22+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006704s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=1 ) LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008545s ]
+
+[ 2020-04-16T17:49:22+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011787s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=2 ) LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007341s ]
+
+[ 2020-04-16T17:49:23+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006463s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=3 ) LIMIT 0,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006294s ]
+
+[ 2020-04-16T17:49:24+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009580s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=4 ) LIMIT 0,4   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007998s ]
+
+[ 2020-04-16T17:49:25+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008957s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=5 ) LIMIT 0,4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008663s ]
+
+[ 2020-04-16T17:49:26+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006663s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=6 ) LIMIT 0,4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005873s ]
+
+[ 2020-04-16T17:49:27+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007499s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=7 ) LIMIT 0,4   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007176s ]
+
+[ 2020-04-16T17:49:28+08:00 ] 127.0.0.1 /ttt11/index.php/Home/xiangxi/xiangxi/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011176s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0598s ]
+SQL: SELECT * FROM `tb_book` WHERE ( bookid=14 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011168s ]
+
+[ 2020-04-16T17:49:30+08:00 ] 127.0.0.1 /ttt11/index.php/Home/gouwuche/gouwuche/bookid/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006456s ]
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\UPUPW_AP5.5\htdocs\ttt11\Application\Home\Controller\GouwucheController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `tb_book` WHERE ( bookid=14 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008094s ]
+
+[ 2020-04-16T17:49:31+08:00 ] 127.0.0.1 /ttt11/index.php/Home/Gouwuche/gouwucheshow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010895s ]
+NOTIC: [8] Undefined variable: zzz D:\UPUPW_AP5.5\htdocs\ttt11\Application\Home\Controller\GouwucheController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008099s ]
+
+[ 2020-04-16T17:49:33+08:00 ] 127.0.0.1 /ttt11/index.php/Home/gouwuche/gouwucheshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007974s ]
+NOTIC: [8] Undefined variable: zzz D:\UPUPW_AP5.5\htdocs\ttt11\Application\Home\Controller\GouwucheController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006151s ]
+
+[ 2020-04-16T17:49:34+08:00 ] 127.0.0.1 /ttt11/index.php/Home/gouwuche/gouwucheshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008154s ]
+NOTIC: [8] Undefined variable: zzz D:\UPUPW_AP5.5\htdocs\ttt11\Application\Home\Controller\GouwucheController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007545s ]
+
+[ 2020-04-16T17:49:37+08:00 ] 127.0.0.1 /ttt11/index.php/Home/Gouwuche/GouwucheDel/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008263s ]
+
+[ 2020-04-16T17:49:38+08:00 ] 127.0.0.1 /ttt11/index.php/Home/Gouwuche/gouwucheshow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008360s ]
+
+[ 2020-04-16T17:49:40+08:00 ] 127.0.0.1 /ttt11/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006583s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006189s ]
+
+[ 2020-04-16T17:49:43+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007930s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=5 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=5 ) LIMIT 0,4   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009711s ]
+
+[ 2020-04-16T17:49:44+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007710s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=6 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=6 ) LIMIT 0,4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011918s ]
+
+[ 2020-04-16T17:49:44+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007167s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=7 ) LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008046s ]
+
+[ 2020-04-16T17:49:46+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006663s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0158s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=1 ) LIMIT 0,4   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008736s ]
+
+[ 2020-04-16T17:49:47+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005912s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=2 ) LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005736s ]
+
+[ 2020-04-16T17:49:49+08:00 ] 127.0.0.1 /ttt11/index.php/Home/gonggao/gonggao/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006446s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `tb_gonggao` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008532s ]
+
+[ 2020-04-16T17:49:51+08:00 ] 127.0.0.1 /ttt11/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007177s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008394s ]
+
+[ 2020-04-16T17:49:53+08:00 ] 127.0.0.1 /ttt11/index.php/Home/gonggao/gonggao/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005667s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `tb_gonggao` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006475s ]
+
+[ 2020-04-16T17:49:55+08:00 ] 127.0.0.1 /ttt11/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005769s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007075s ]
+
+[ 2020-04-16T17:49:55+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006324s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( recommend=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007228s ]
+
+[ 2020-04-16T17:49:57+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006914s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0467s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0665s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( newbook=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_book` WHERE ( newbook=1 ) LIMIT 0,4   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009446s ]
+
+[ 2020-04-16T17:49:57+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008150s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=1 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=1 ) LIMIT 0,4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006222s ]
+
+[ 2020-04-16T17:49:58+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006243s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=2 ) LIMIT 0,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006297s ]
+
+[ 2020-04-16T17:49:58+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007812s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=3 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=3 ) LIMIT 0,4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006644s ]
+
+[ 2020-04-16T17:49:59+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008551s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0451s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0314s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=5 ) LIMIT 0,4   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008312s ]
+
+[ 2020-04-16T17:50:00+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/3/typeid/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008733s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( typeid=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_book` WHERE ( typeid=7 ) LIMIT 0,4   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011216s ]
+
+[ 2020-04-16T17:50:09+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/soushuo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007013s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( bookname like '%当代%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_book` WHERE ( bookname like '%当代%' ) LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006874s ]
+
+[ 2020-04-16T17:50:15+08:00 ] 127.0.0.1 /ttt11/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006985s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009058s ]
+
+[ 2020-04-16T17:50:17+08:00 ] 127.0.0.1 /ttt11/index.php/Home/yuding/yuding/type/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007660s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` WHERE ( newbook=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_book` WHERE ( newbook=1 ) LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006735s ]
+
+[ 2020-04-16T17:50:18+08:00 ] 127.0.0.1 /ttt11/index.php/Home/regsiter/regsitershow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005628s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005744s ]
+
+[ 2020-04-16T17:50:18+08:00 ] 127.0.0.1 /ttt11/index.php/Home/regsiter/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005942s ]
+
+[ 2020-04-16T17:52:06+08:00 ] 127.0.0.1 /ttt11/index.php/Home/Regsiter/Regsiter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007019s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tb_user` WHERE `username` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011309s ]
+
+[ 2020-04-16T17:52:24+08:00 ] 127.0.0.1 /ttt11/index.php/Home/Regsiter/Regsiter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008449s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tb_user` WHERE `username` = '123456' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010764s ]
+
+[ 2020-04-16T17:52:30+08:00 ] 127.0.0.1 /ttt11/index.php/Home/Regsiter/Regsiter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007601s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0193s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tb_user` WHERE `username` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006637s ]
+
+[ 2020-04-16T17:52:38+08:00 ] 127.0.0.1 /ttt11/index.php/Home/Regsiter/Regsiter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006663s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tb_user` WHERE `username` = '123456' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tb_user` (`username`,`password`,`tel`,`email`,`adress`) VALUES ('123456','e10adc3949ba59abbe56e057f20f883e','12345678900','123456@qq.com','上海') [ RunTime:0.0338s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009657s ]
+
+[ 2020-04-16T17:52:39+08:00 ] 127.0.0.1 /ttt11/index.php/Home/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009832s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006520s ]
+
+[ 2020-04-16T17:52:41+08:00 ] 127.0.0.1 /ttt11/index.php/Home/login/loginshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006706s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006163s ]
+
+[ 2020-04-16T17:52:42+08:00 ] 127.0.0.1 /ttt11/index.php/Home/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006139s ]
+
+[ 2020-04-16T17:52:53+08:00 ] 127.0.0.1 /ttt11/index.php/Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010983s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `tb_user` WHERE `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006261s ]
+
+[ 2020-04-16T17:52:54+08:00 ] 127.0.0.1 /ttt11/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006728s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007545s ]
+
+[ 2020-04-16T17:52:58+08:00 ] 127.0.0.1 /ttt11/index.php/Home/dingdan/dingdanshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006209s ]
+SQL: SHOW COLUMNS FROM `tb_dingdan` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_dingdan` WHERE ( userid=3 )  [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007544s ]
+
+[ 2020-04-16T17:53:00+08:00 ] 127.0.0.1 /ttt11/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010557s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0429s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006672s ]
+
+[ 2020-04-16T17:53:01+08:00 ] 127.0.0.1 /ttt11/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007759s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007796s ]
+
+[ 2020-04-16T18:07:36+08:00 ] 127.0.0.1 /ttt11/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007153s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006189s ]
+
+[ 2020-04-16T18:07:53+08:00 ] 127.0.0.1 /ttt11/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006908s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006731s ]
+
+[ 2020-04-16T18:08:02+08:00 ] 127.0.0.1 /ttt11/index.php/Home/regsiter/regsitershow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006619s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005959s ]
+
+[ 2020-04-16T18:08:09+08:00 ] 127.0.0.1 /ttt11/index.php/Home/regsiter/Verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006819s ]
+
+[ 2020-04-16T18:11:17+08:00 ] 127.0.0.1 /ttt11/index.php/Home/Regsiter/Regsiter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005677s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tb_user` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tb_user` (`username`,`password`,`tel`,`email`,`adress`) VALUES ('123123','e5e5b55b7387b4f41e854f5344802200','12345678912','124578963@qq.com','') [ RunTime:0.0444s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008524s ]
+
+[ 2020-04-16T18:11:19+08:00 ] 127.0.0.1 /ttt11/index.php/Home/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005687s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009589s ]
+
+[ 2020-04-16T18:11:23+08:00 ] 127.0.0.1 /ttt11/index.php/Home/login/loginshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006314s ]
+
+[ 2020-04-16T18:11:24+08:00 ] 127.0.0.1 /ttt11/index.php/Home/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000322s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006814s ]
+
+[ 2020-04-16T18:11:40+08:00 ] 127.0.0.1 /ttt11/index.php/Home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006049s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `tb_user` WHERE `password` = 'e5e5b55b7387b4f41e854f5344802200' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005669s ]
+
+[ 2020-04-16T18:11:42+08:00 ] 127.0.0.1 /ttt11/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008793s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 ) LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_book` WHERE ( recommend=1 and newbook=1 ) LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007052s ]
+
+[ 2020-04-16T18:11:51+08:00 ] 127.0.0.1 /ttt11/index.php/Home/xiangxi/xiangxi/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007112s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `tb_book` WHERE ( bookid=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007319s ]
+
+[ 2020-04-16T18:11:59+08:00 ] 127.0.0.1 /ttt11/index.php/Home/gouwuche/gouwuche/bookid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008042s ]
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\UPUPW_AP5.5\htdocs\ttt11\Application\Home\Controller\GouwucheController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `tb_book` WHERE ( bookid=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_gwc` [ RunTime:0.0201s ]
+SQL: INSERT INTO `tb_gwc` (`bookid`,`booknum`,`bookname`,`bookprice`,`photo`,`userid`) VALUES ('6','1','平凡的世界 ','59','upimages/shu11.jpg','5') [ RunTime:0.0639s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007924s ]
+
+[ 2020-04-16T18:12:01+08:00 ] 127.0.0.1 /ttt11/index.php/Home/Gouwuche/gouwucheshow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008631s ]
+SQL: SHOW COLUMNS FROM `tb_gwc` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `tb_gwc` WHERE ( userid=5 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: zzz D:\UPUPW_AP5.5\htdocs\ttt11\Application\Home\Controller\GouwucheController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009226s ]
+
+[ 2020-04-16T18:12:05+08:00 ] 127.0.0.1 /ttt11/index.php/Home/dingdan/dingdan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006106s ]
+
+[ 2020-04-16T18:12:06+08:00 ] 127.0.0.1 /ttt11/index.php/Home/dingdan/images/dingd.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+

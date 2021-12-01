@@ -1,0 +1,952 @@
+[ 2020-04-16T17:53:13+08:00 ] 127.0.0.1 /ttt11/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005740s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007763s ]
+
+[ 2020-04-16T17:53:13+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008406s ]
+
+[ 2020-04-16T17:54:27+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007697s ]
+SQL: SHOW COLUMNS FROM `tb_admin` [ RunTime:0.0043s ]
+SQL: SELECT `id` FROM `tb_admin` WHERE `name` = '123456' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006889s ]
+
+[ 2020-04-16T17:55:38+08:00 ] 127.0.0.1 /ttt11/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008049s ]
+
+[ 2020-04-16T17:55:39+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006446s ]
+
+[ 2020-04-16T17:55:52+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006806s ]
+SQL: SHOW COLUMNS FROM `tb_admin` [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006300s ]
+
+[ 2020-04-16T17:55:57+08:00 ] 127.0.0.1 /ttt11/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006475s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010226s ]
+
+[ 2020-04-16T17:55:57+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012285s ]
+
+[ 2020-04-16T17:56:11+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006689s ]
+SQL: SHOW COLUMNS FROM `tb_admin` [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006673s ]
+
+[ 2020-04-16T17:56:21+08:00 ] 127.0.0.1 /ttt11/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010635s ]
+
+[ 2020-04-16T17:56:22+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012481s ]
+
+[ 2020-04-16T17:56:38+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009536s ]
+SQL: SHOW COLUMNS FROM `tb_admin` [ RunTime:0.0042s ]
+SQL: SELECT `id` FROM `tb_admin` WHERE `name` = '123456' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006294s ]
+
+[ 2020-04-16T17:56:39+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/book/bookshow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006103s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_book` LIMIT 0,13   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008686s ]
+
+[ 2020-04-16T17:57:22+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Book/BookSaveShow/bookid/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009529s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `tb_type` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tb_book` WHERE ( bookid=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006349s ]
+
+[ 2020-04-16T17:57:26+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Book/BookSave/bookid/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009513s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] finfo_file(): Empty filename or path D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+SQL: UPDATE `tb_book` SET `bookname`='穆斯林的葬礼',`isbn`='2012004',`typeid`='5',`author`='霍达',`pubhouse`='人民文学出版社',`bookprice`='40',`vipprice`='7',`introduction`='“图书”一词最早出现于《史记?萧相围世家》，刘邦攻入咸阳时，“何独先入收秦丞相御史律令图书藏之。沛公为汉王，以何为丞相。…汉王所以具知天下厄塞，户口多少，强弱之处，民所疾苦者，以何具得秦图书也”。这里的“图书”指的是地图和文书档案，它和我们今天所说的图书是有区别。进一步探求“图书”一词的渊源，可追溯到《周易?上系辞》记载的“河出图、洛出书”这个典故上来，它反映了图画和文字的密切关系。虽然是神话传说，但却说明了这样一个事实：文字起源于图画。图画和文字确实是紧密相连的。古人称各种文字形态为“书体”，写字的方法为“书法”“书“字还被作为动词，当“写”讲，如“罄竹难书”、“奋笔疾书”、“大书特书”等等。以后，“书”便进一步被引申为一切文字记录。如“书信”、“文书”“刑书”、“诏书”、“盟书”等等。随着历史的发展，人们对于图书的认识也在不断地发生变化。到了今天，人们已经不再把一创文字记录都称作“书”了。例如文书、书信、诏书、盟书，虽然都带有“书”字，但已不包括在图书的范围之内。古文记载，其内容多是记事性质的，如甲骨卜辞、青铜器铭文等，都是属于这一类的，其作用主要是为帮助记忆，以便需要时检查参考，其性质相当于后世的档案。以后人们从实践中认识到，这些记录的材料可以改变成总结经验、传授知识的工具。于是便出现了专为传授知识、供人阅读的著作。这样，图书一词便取得了较新而又较窄的意义。到后来，凡不以传播经验、传授知识、供人阅读为目的的文字记录就不算图书了；随着生产力的发展和社会的进步，人们开始有意识她运用文字来宣传思想，传播知识，同时也逐步地形成了一套书籍制度,而处理日常事务的文件又形成了一套文书制度。于是，图书与档案就逐渐被区分开了。 ',`recommend`='0',`newbook`='1',`pubdate`='2010-1-1' WHERE ( bookid=8 ) [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009707s ]
+
+[ 2020-04-16T17:57:27+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Book/BookShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005688s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_book` LIMIT 0,13   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006426s ]
+
+[ 2020-04-16T17:57:34+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Book/BookShow/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007400s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_book` LIMIT 13,13   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006481s ]
+
+[ 2020-04-16T17:57:39+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Book/BookDel/bookid/49
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006404s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0062s ]
+SQL: DELETE FROM `tb_book` WHERE ( bookid=49 ) [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008153s ]
+
+[ 2020-04-16T17:57:40+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Book/BookShow/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006807s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_book` LIMIT 13,13   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008606s ]
+
+[ 2020-04-16T18:01:32+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Book/BookShow/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009946s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_book` LIMIT 0,13   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006792s ]
+
+[ 2020-04-16T18:04:44+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Book/BookShow/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010539s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_book` LIMIT 0,13   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009077s ]
+
+[ 2020-04-16T18:04:46+08:00 ] 127.0.0.1 /ttt11/index.php/admin/book/BookAddShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006744s ]
+SQL: SHOW COLUMNS FROM `tb_type` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `tb_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010341s ]
+
+[ 2020-04-16T18:06:10+08:00 ] 127.0.0.1 /ttt11/index.php/admin/book/BookAddShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009748s ]
+SQL: SHOW COLUMNS FROM `tb_type` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008247s ]
+
+[ 2020-04-16T18:06:14+08:00 ] 127.0.0.1 /ttt11/index.php/admin/book/BookAddShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008875s ]
+SQL: SHOW COLUMNS FROM `tb_type` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tb_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010799s ]
+
+[ 2020-04-16T18:06:15+08:00 ] 127.0.0.1 /ttt11/index.php/admin/type/typeshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007882s ]
+SQL: SHOW COLUMNS FROM `tb_type` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_type` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_type` LIMIT 0,7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008626s ]
+
+[ 2020-04-16T18:06:16+08:00 ] 127.0.0.1 /ttt11/index.php/admin/type/typeaddshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007041s ]
+
+[ 2020-04-16T18:06:18+08:00 ] 127.0.0.1 /ttt11/index.php/admin/user/usershow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006925s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009871s ]
+
+[ 2020-04-16T18:06:19+08:00 ] 127.0.0.1 /ttt11/index.php/admin/Dingdan/DingdanShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009477s ]
+SQL: SHOW COLUMNS FROM `tb_dingdan` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_dingdan` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_dingdan` LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008650s ]
+
+[ 2020-04-16T18:06:20+08:00 ] 127.0.0.1 /ttt11/index.php/admin/gonggao/gonggaoshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007382s ]
+SQL: SHOW COLUMNS FROM `tb_gonggao` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_gonggao` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_gonggao` LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007844s ]
+
+[ 2020-04-16T18:06:22+08:00 ] 127.0.0.1 /ttt11/index.php/admin/gonggao/GonggaoAddShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008574s ]
+
+[ 2020-04-16T18:06:23+08:00 ] 127.0.0.1 /ttt11/index.php/admin/book/BookAddShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008554s ]
+SQL: SHOW COLUMNS FROM `tb_type` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tb_type`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007659s ]
+
+[ 2020-04-16T18:06:24+08:00 ] 127.0.0.1 /ttt11/index.php/admin/book/BookShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009502s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_book` LIMIT 0,13   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007628s ]
+
+[ 2020-04-16T18:07:28+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Book/BookShow/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009606s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_book` LIMIT 13,13   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008115s ]
+
+[ 2020-04-16T18:07:29+08:00 ] 127.0.0.1 /ttt11/index.php/admin/book/BookAddShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008999s ]
+SQL: SHOW COLUMNS FROM `tb_type` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `tb_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006727s ]
+
+[ 2020-04-16T18:07:52+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Book/BookAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009352s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] finfo_file(): Empty filename or path D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008220s ]
+
+[ 2020-04-16T18:08:01+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Book/BookAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006687s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] finfo_file(): Empty filename or path D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008133s ]
+
+[ 2020-04-16T18:08:07+08:00 ] 127.0.0.1 /ttt11/index.php/admin/book/BookShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006810s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_book` LIMIT 0,13   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007982s ]
+
+[ 2020-04-16T18:08:09+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Book/BookShow/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009344s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_book` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_book` LIMIT 13,13   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007265s ]
+
+[ 2020-04-16T18:08:15+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Book/BookSaveShow/bookid/48
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006651s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `tb_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_book` WHERE ( bookid=48 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007335s ]
+
+[ 2020-04-16T18:08:19+08:00 ] 127.0.0.1 /ttt11/index.php/admin/book/BookAddShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006927s ]
+SQL: SHOW COLUMNS FROM `tb_type` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tb_type`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009306s ]
+
+[ 2020-04-16T18:08:52+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Book/BookAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006436s ]
+SQL: SHOW COLUMNS FROM `tb_book` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\ttt11\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007306s ]
+
+[ 2020-04-16T18:09:19+08:00 ] 127.0.0.1 /ttt11/index.php/admin/Dingdan/DingdanShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007099s ]
+SQL: SHOW COLUMNS FROM `tb_dingdan` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_dingdan` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_dingdan` LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006343s ]
+
+[ 2020-04-16T18:09:23+08:00 ] 127.0.0.1 /ttt11/index.php/admin/user/usershow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009784s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008351s ]
+
+[ 2020-04-16T18:12:58+08:00 ] 127.0.0.1 /ttt11/index.php/admin/user/usershow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006838s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_user` LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tb_user` LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008681s ]
+
+[ 2020-04-16T18:20:18+08:00 ] 127.0.0.1 /ttt11/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006965s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005828s ]
+
+[ 2020-04-16T18:20:19+08:00 ] 127.0.0.1 /ttt11/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007631s ]
+
